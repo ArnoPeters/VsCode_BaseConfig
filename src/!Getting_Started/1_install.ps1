@@ -1,5 +1,6 @@
-winget install --id Git.Git -e --source winget
-winget install --id Microsoft.PowerShell --source winget
-winget install --id=GnuPG.Gpg4win -e --source winget
+winget install -e --source winget --id=Microsoft.VisualStudioCode
+winget install -e --source winget --id=GnuPG.Gpg4win
+winget install -e --source winget --id Git.Git
+
 
 #TODO: reboot on first install
