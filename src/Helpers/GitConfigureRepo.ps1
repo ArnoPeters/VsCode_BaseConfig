@@ -50,3 +50,8 @@ Expire-Date: 0
   git config user.signingkey $GpgKeyId
   git config commit.gpgSign true
 }
+else {
+  git config --unset user.signingkey
+  git config commit.gpgSign false
+}
+
