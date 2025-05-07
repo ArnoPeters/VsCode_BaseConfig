@@ -1,0 +1,9 @@
+# Always ignore these IDE folders, regardless of what this repo is used for.
+# Visual Studio
+.vs 
+# Jetbrains Rider
+.idea 
+
+# Always ignore temp folders that should not be checked in
+.tmp
+

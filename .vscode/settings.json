@@ -1,0 +1,13 @@
+{
+  // Custom workspace settings for visual studio code.
+  "explorer.copyRelativePathSeparator": "/",
+  "editor.formatOnSave": true,
+  "todo-tree.general.statusBar": "current file",
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules/*/**",
+    "**/PULL_REQUEST_TEMPLATE.md"
+  ],
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.general.showActivityBarBadge": true,
+  //"sql-formatter.uppercase": true
+}

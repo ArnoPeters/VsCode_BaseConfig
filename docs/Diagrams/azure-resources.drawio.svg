@@ -1,0 +1,37 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="615px" height="444px" viewBox="-0.5 -0.5 615 444" content="&lt;mxfile&gt;&lt;diagram id=&quot;bWuUJY2a8TUvvCVUbZ6R&quot; name=&quot;Page-1&quot;&gt;rVTbjpswEP0aHltxWbqbxybsplLVl6ZSnx0zgdEa27JNIP36esBAWLZSK1VIIT5zP2dMlB2a/miYrr+pEkSUxmUfZUWUpkmcPPgXIbcR2U1AZbAMTgtwwl8wRQa0xRLsytEpJRzqNciVlMDdCmPGqG7tdlFiXVWzCjbAiTOxRX9i6eoRfcrjBf8CWNVT5SQOloZNzgGwNStVdwdlz1F2MEq58V/TH0AQeRMvY9zLH6xzYwak+6uAfIy4MtGG4U7t2XKD2qGS3iJZA0SbLCmxgQv2oXV3m/iwr+A4DRZH2Z5ZPXLuPcGX2WuF0g2M5/soL8hFYCU9wH2XYDyAzcD4/qKkC3In6YIX2FR+BoFn/9tYznxHL1/h9tFeK++1HTrwcAXjoL+DAglHUA04c/MuwfoU9AgLmezGY7eom4Wc9Z2wk+As7FM1510op45H1t9XIE83ChiwqjUcjka1epbgDecDVeFItNOs6Ff0c+DWKf0e01YzjrL6QdbiA3F8QSEOSihvLaSSJIOvK0vSbsjc1ejg5OOoVOdvNKVxRr3CFBal2S6hZ7ZM14IKlMzWQzIy+yvpGErqJZyFYNrieR4Eek3LNh4M8NZYvMJ3sONexP9H8OTxreLJRvKHT/FW8/Tx30X3x+VKD7a7D2P2/Bs=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <image x="63.5" y="-0.5" width="31" height="50" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMS4wMDMiIGhlaWdodD0iNTAuMDAxIj48cGF0aCBkPSJNMjkuMzM3IDE5LjUyNWE1LjY5IDUuNjkgMCAwIDAgMC04LjA0NWwtOS44MTItOS44MTNhNS42OSA1LjY5IDAgMCAwLTguMDQ2IDBMMS42NjYgMTEuNDhhNS42OSA1LjY5IDAgMCAwIDAgOC4wNDVsOC42MzMgOC42MzNWNDQuOEwxNS41IDUwbDQuNTItNC41MnYtLjAzM2wyLjY1Mi0yLjY1My0yLjYzLTIuNjMgMi42My0yLjYzLTIuNjMtMi42MyAyLjYzLTIuNjMtMi42NTItMi42NTN2LS43ODR6TTE1LjUwMiA0LjA0YTMuMjMgMy4yMyAwIDAgMSAzLjIyOSAzLjIyOSAzLjIzIDMuMjMgMCAwIDEtMy4yMjkgMy4yMjkgMy4yMyAzLjIzIDAgMCAxLTMuMjI5LTMuMjI5IDMuMjMgMy4yMyAwIDAgMSAzLjIyOS0zLjIyOXoiIGZpbGw9IiNmY2QxMTYiLz48cGF0aCBkPSJNMTQuNzU4IDMwLjAwOGwtMi4wMy0xVjQzLjk2bDIuMDMgMnoiIG9wYWNpdHk9Ii40IiBmaWxsPSIjZmY4YzAwIi8+PHBhdGggZD0iTTUuODY4IDEzLjYxNmgxOC42NHYyLjY4SDUuODY4em0wIDQuMzZoMTguNjR2Mi42OEg1Ljg2OHoiIG9wYWNpdHk9Ii41IiBmaWxsPSIjZmZmIi8+PC9zdmc+"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <rect fill="rgb(255, 255, 255)" stroke="none" x="2" y="58" width="157" height="15" stroke-width="0"/>
+            <text x="79" y="67.5">
+                Subscription name and prefix
+            </text>
+        </g>
+        <rect x="154" y="172" width="460" height="270" fill="none" stroke="#919191" stroke-width="2" stroke-dasharray="6 6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 458px; height: 1px; padding-top: 177px; margin-left: 155px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                resourceGroup name
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="384" y="189" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    resourceGroup name
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

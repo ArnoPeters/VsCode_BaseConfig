@@ -1,0 +1,19 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# General style: use spaces. Don't specify an indent_size for everything here, this will mess up too many files unintentionally. 
+[*]
+indent_style = space
+indent_size = 2
+
+# Yaml must ALWAYS be 2 spaces or it won't work.
+[*.{yml,yaml}] 
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+[*.sh]
+end_of_line = lf  # prevents bugs with Bash scripts when working in Windows
