@@ -9,12 +9,19 @@ param(
   [bool]$UseGPG = $false
 )
 
+Write-host "Setting Git Username and Email"
 # Configure Git user details
 git config user.name $GitUserName
 git config user.email $GitEmail
 
+Write-host "Checking for GPG key..."
 if ($UseGPG -eq $true) {
 
+  git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe" 
+
+
+  #TODO: ensure an agent is running
+  #gpg-connect-agent reloadagent /bye
   # Check if a GPG key already exists for the provided email
   $GpgKeyId = gpg --list-secret-keys --keyid-format LONG $GitEmail | Select-String -Pattern "sec.*\/([A-F0-9]+)" | ForEach-Object { $_.Matches.Groups[1].Value }
 
@@ -46,8 +53,13 @@ if ($UseGPG -eq $true) {
   else {
     Write-Host "GPG key already exists for $GitEmail : $GpgKeyId"
   }
-
   # Configure Git to use the GPG key
+  
+  gpg --armor --export $GpgKeyId > "publickey.txt" 
+  Write-Warning "Add the text in publickey.txt to your source control provider."
+  
+  # Configure Git to use the GPG key
+  Write-Host "Configure GIT to use user.signingkey $GpgKeyId"
   git config user.signingkey $GpgKeyId
   git config commit.gpgSign true
 }
