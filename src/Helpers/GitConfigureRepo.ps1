@@ -11,6 +11,8 @@ param(
 
 Write-host "Setting Git Username and Email"
 # Configure Git user details
+# git config --global user.name $GitUserName
+# git config --global user.email $GitEmail
 git config user.name $GitUserName
 git config user.email $GitEmail
 
